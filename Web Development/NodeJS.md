@@ -110,7 +110,7 @@ sayHi('susan')
 </details>
 </br>
 
-![1633062865009](:/8df760b1aba74459a1ee2b5043580d31)
+![1633062865009](../_resources/1633062865009)
 
 > The `module` is an object containing an object `exports` which is accessible everywhere.<br/>
 > We can add different items inside the `module.exports` **object** 
@@ -138,7 +138,7 @@ sayHi(names.peter)
 
 /*On doing */ console.log("03: ", bake, '\n', sayHi, '\n', data); /*see output*/
 ```
-![5c9da5140928e9b2b039ffa76f6b28cf.png](:/e4eda31f175d4b56994fc3d45e3bf643)
+![5c9da5140928e9b2b039ffa76f6b28cf.png](../_resources/5c9da5140928e9b2b039ffa76f6b28cf.png)
 
 
 </details>
@@ -252,10 +252,10 @@ console.log('currentOS: \n', currentOS)
 
 ```
 Windows 10.
-![1633101543068](:/6df7a0dc6a3c4693899dba4f3dbc556c)
+![1633101543068](../_resources/1633101543068)
 
 Linux:
-![bd7a7d8ee6ac82884e9e1414687f9cd4.png](:/5496f3335f0643c6905540c69e3b34bf)
+![bd7a7d8ee6ac82884e9e1414687f9cd4.png](../_resources/bd7a7d8ee6ac82884e9e1414687f9cd4.png)
 </details>
 </br>
 
@@ -290,7 +290,7 @@ const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt')
 console.log(absolute)
 
 ```
-![1633148486268](:/6ea271559242499890fbb91afc60213a)
+![1633148486268](../_resources/1633148486268)
 </details>
 </br>
 
@@ -384,7 +384,7 @@ readFile('./tut64_sample/a.txt', 'utf-8', (err, data) => {
 ```
 
 Output:<br/>
-![1633255384164](:/282dd116af9f49ddb046ab6216562717)
+![1633255384164](../_resources/1633255384164)
 </details>
 </br>
 
@@ -401,7 +401,7 @@ Output:<br/>
 > console.log(text);
 > ```
 > output:<br/>
-> ![1633254132376](:/aaba253f53f646ddbee2b547321fdfcb)
+> ![1633254132376](../_resources/1633254132376)
 <br/>
 
 > ✨🕸🔥🎆🎇<br/>
@@ -424,7 +424,7 @@ Output:<br/>
 > console.log("this is a message");
 > ```
 > Output:<br/>
-> ![1633254349820](:/ec5bcf86e86b4a7bb1937f436b22df24)
+> ![1633254349820](../_resources/1633254349820)
 
 
 
@@ -458,7 +458,7 @@ server.listen(5000)// the server will listen to all the requests at port no.:500
 
 ```
 
-Output : ![Screenshot_20220311_130642](:/015b9255305449639b227b724bfb322d)
+Output : ![Screenshot_20220311_130642](../_resources/Screenshot_20220311_130642)
 
 1. 
 ```javascript
@@ -538,11 +538,11 @@ npm calls the reusable code a package
 
 a package essentially is a folder that contains a javascript known as modules and dependencies
 
-![1633289177070](:/578eee0544b84e8bb5720e786264b83e)
+![1633289177070](../_resources/1633289177070)
 
 Using `lowdash`:
 
-![1633446917806](:/4bbd710eda204cec89242dae10c9a1f7)
+![1633446917806](../_resources/1633446917806)
 
 Installing a module as a `dev-dependency`
 
@@ -567,7 +567,7 @@ setting up `scripts` in `package.json`:
 ```
 For some commands we can use commands like : `npm start`, but for some we can use commands like: `npm run dev` <br/>
 Now to run it we will do:<br/>
-![1633517694811](:/50dddb36273048739d1dce8ffb137562)<br/>
+![1633517694811](../_resources/1633517694811)<br/>
 
 Note that the commands should be `npm start` or `npm run start`  but for `dev` it should i=only be `npm run dev`
 
@@ -594,11 +594,11 @@ Better to set up these kinds of dependencies locally in `devDependencies` or use
 
 &emsp; &emsp; Synchronous JS: Blocking JS<br/>
 &emsp; &emsp; &emsp; &emsp; &darr; <br/>
-![1633541605491](:/71bf201cc6c14937aed29d7c9c33c72d) 
+![1633541605491](../_resources/1633541605491) 
 
 &emsp; &emsp; Asynchronous JS: Non-Blocking<br/>
 &emsp; &emsp; &emsp; &emsp; &darr; <br/>
-![1633545722361](:/7b20b94c3073467d95c898c9f34e1275)<br/>
+![1633545722361](../_resources/1633545722361)<br/>
 This happens because the `setTimeout()` function is Asynchronous<br/>
 Run the Immediate code firxt & then if time permits run the callback, so
 in case if I have 100 `console.log()` tasks after *`third`* then also they will run first
@@ -606,7 +606,7 @@ and only after that the second task would execute, *regardless of what time is s
 
 
 Note that the setInterval is also Asynchronous so it ofloaded, and here the process continues forever unless it is forced stop
-![1633545871628](:/05f9fcb7340c43518597f7559f7bc6b1)
+![1633545871628](../_resources/1633545871628)
 
 ![event loop](https://res.cloudinary.com/diqqf3eq2/image/upload/v1613666858/course%20slides/event-loop_gohdkk.png)
 Notes :
@@ -630,7 +630,7 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
 })
 console.log('starting next task')
 ```
-![1633544103295](:/8ac0378b6434490eaf0d017379ccf33c)
+![1633544103295](../_resources/1633544103295)
 </details>
 </br>
 
@@ -649,7 +649,7 @@ server.listen(5000, () => {
   console.log('Server listening on port : 5000....')
 })
 ```
-![1633546505824](:/505ca7ce728f44488786ec20a28361ff)
+![1633546505824](../_resources/1633546505824)
 </details>
 </br>
 
@@ -679,7 +679,7 @@ server.listen(5000, () => {
 })
 ```
 Everything is Good<br/>
-![1633548246478](:/207d6d32e46f42a2897014b80cb10f0b)
+![1633548246478](../_resources/1633548246478)
 </details>
 </br>
 
@@ -709,8 +709,8 @@ server.listen(5000, () => {
 ```
 
 Everything is not good and all the requests are blocked because of a single Blocking Code:
-![1633548673125](:/03701d685dd24c5aacfed2cd803c01b1)
-![1633548968941](:/db32e6c9a8b94299a5cd075459a7c9d7)
+![1633548673125](../_resources/1633548673125)
+![1633548968941](../_resources/1633548968941)
 </details>
 </br>
 
@@ -841,7 +841,7 @@ start()
 
 Final O/p:
 
-![1633784350425](:/83d67567c3534dcb8866585777efefbc)
+![1633784350425](../_resources/1633784350425)
 </details>
 </br>
 
@@ -901,7 +901,7 @@ customEvent.on('response', () => {
 
 customEvent.emit('response')
 ```
-![1633795111808](:/2de505f9c38547f38d893a0814b9905e)
+![1633795111808](../_resources/1633795111808)
 
 The order matters while we are writing `on()` & `emit()` functions `on()` functions should always be above the `emit()` function.
 
@@ -921,7 +921,7 @@ customEvent.on('response', () => {
     console.log(`some other logic here`);
 })
 ```
-![1633795381415](:/98ee591985f146a4a227c4dae48927ed)
+![1633795381415](../_resources/1633795381415)
 </details>
 
 Because i first emit the event and only then i listen for it. This doesn't makes sense
@@ -947,7 +947,7 @@ customEvent.on('response', (name) => {
 
 customEvent.emit('response', 'adarsh', 123)
 ```
-![1633796083154](:/993a4909c56c49bfbc7c6f81a1721cc5)
+![1633796083154](../_resources/1633796083154)
 </details>
 </br>
 
@@ -1021,7 +1021,7 @@ fileContentStream.on('data', (result) => {
 })
 fileContentStream.emit('data')
 ```
-O/P: ![1633878723874](:/5a67068e5a964036af5867a558de1f65)
+O/P: ![1633878723874](../_resources/1633878723874)
 
 Notice that we are reading the data in multiple chunks in of 65486 Bytes i.e., 64KB
 
@@ -1049,7 +1049,7 @@ fileContentStream.on('data', (result) => {
 ```
 <u>Note that I haven't used emit() function</u>
 
-![1633881261679](:/f56d2f3fcdfd4027a248ac177d24ca60)
+![1633881261679](../_resources/1633881261679)
 the O/p seems in text bcoz the encoding is utf8 or else it would be like the o/p in above Screenshot.
 
 <details>
@@ -1071,7 +1071,7 @@ fileContentStream.on('error', (err) => {
 
 // Note that I haven't used emit() function
 ```
-O/P: ![1633884725681](:/43c6a10613f040469384e1d616746986)
+O/P: ![1633884725681](../_resources/1633884725681)
 </details>
 </br>
 
@@ -1101,8 +1101,8 @@ http
 
 The data transmitted over the network:
 
-1. ![1633893557100](:/a4ea48bcc41b4800bf4ec7ca1959a3ac)
-2. ![1633894862974](:/53da50238be84d3d98205a2647806216)
+1. ![1633893557100](../_resources/1633893557100)
+2. ![1633894862974](../_resources/1633894862974)
 
 Code 2 : Sending data in chunks :
 
@@ -1128,7 +1128,7 @@ http
 
 `pipe()` method is used to push data from `ReadStream` to `WriteStream`. It hepls in writing data in chunks
 
-![1633894806343](:/1a09c1f0952845f8a15979765b275f17)
+![1633894806343](../_resources/1633894806343)
 
 the memory used up is same but it is better as it is chunked
 
@@ -1138,9 +1138,9 @@ the memory used up is same but it is better as it is chunked
 
 [TOC](#table-of-contents)
 
-![1633915809757](:/5bfec594c2a14acda765ec80346b5d3b)
+![1633915809757](../_resources/1633915809757)
 
-![1633916853874](:/d716c297fea945f5b3444e1a3d64ca36)
+![1633916853874](../_resources/1633916853874)
 
 The general structure for both messages is similar they both have a start line,
 both have optional headers (a blank line indicating that all the meta info has
@@ -1154,7 +1154,7 @@ Request Message:
 Response Message:
 * In header we provide info about our res. msg.
 
-![1633917305045](:/82dbdebc4db94076bc93d2f6c7f1c7eb)
+![1633917305045](../_resources/1633917305045)
 
 ***GET is the default request made by the browser***
 
@@ -1196,7 +1196,7 @@ so you go into the browser you request a resource (by default it is a get reques
 | 194    | Internet Relay Chat (IRC)                                          |
 | 443    | HTTP Secure (HTTPS) HTTP over TLS/SSL                              |
 
-![1633933391651](:/82e2540b86af47d9a018c7dcd435f369)
+![1633933391651](../_resources/1633933391651)
 
 On setting up the server like this: 
 ```javascript
@@ -1238,13 +1238,13 @@ const server = http.createServer((req, res) => {
 
 server.listen(5000)
 ```
-O/P: ![1633975942185](:/f42bd8f1411043a2b4e52e01fdc27c9f)
+O/P: ![1633975942185](../_resources/1633975942185)
 
 and for the following MIME Type:
 ```javascript
 res.writeHead(200, { 'content-type': 'text/plain' })
 ```
-O/P: ![1633976006238](:/10cc50dc772749bb8d1ef666d1b63fbf)
+O/P: ![1633976006238](../_resources/1633976006238)
 
 [HTTP response status codes- moz://a](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
@@ -1324,17 +1324,17 @@ Serving the `navbar-app`
 The Problem: 
 
 Normally the look of the `navbar-app` is : <br/>
-![1633978897600](:/0bac8ef8e4d142a580b95501c82f11b5)
+![1633978897600](../_resources/1633978897600)
 
 > after changing the above code as : `const homePage = readFileSync('./navbar-app/index.html')`<br/>
-> ![d6cd5f145707b264f12a78ed418573dd.png](:/54feb86bbfb74d6e885fe2d6418458de)
+> ![d6cd5f145707b264f12a78ed418573dd.png](../_resources/d6cd5f145707b264f12a78ed418573dd.png)
 
 <br/>
 
 Observation: 
 
 The following end points are being requested:<br/>
-![1633979247865](:/ea5a3df962294f9e857be3c1dbab668a)
+![1633979247865](../_resources/1633979247865)
 
 that is we will have to read and serve the `style.css`, `logo`, `javascript` as well
 
@@ -1398,7 +1398,7 @@ const server = http.createServer((req, res) => {
 server.listen(5000)
 ```
 O/P:
-![1633979914504](:/da03ae4c365c444a9b6d3839c1978da1)
+![1633979914504](../_resources/1633979914504)
 </details>
 </br>
 
@@ -1581,7 +1581,7 @@ when it comes to express in most cases you'll use one of the two following optio
 **SSR**
 * In server side rendering where we will set up templates and send back entire html, css and javascript ourselves using `res.render()`
 
-![Screenshot_20211012-170043](:/6eab71479aba4e6cb3ca16998fc7b0be)
+![Screenshot_20211012-170043](../_resources/Screenshot_20211012-170043)
 
 
 ## Setting Up API
@@ -1606,7 +1606,7 @@ app.listen(5000, () => {
    console.log('server listening to port 5000');
 })
 ```
-![1634039817839](:/9a4e16dfcc8d4d4da4a13d5b9fb1ab2c)
+![1634039817839](../_resources/1634039817839)
 
 
 Setting up JS objects in `data.js` file in API.
@@ -1623,8 +1623,8 @@ app.listen(5000, () => {
    console.log('server listening to port 5000');
 })
 ```
-![1634040395761](:/e5a8b0b6cc484751bad1b91d82687470)<br/>
-![1634040287914](:/9b343553463e4ab0afbe1d67fa728093)
+![1634040395761](../_resources/1634040395761)<br/>
+![1634040287914](../_resources/1634040287914)
 
 Instead of sending everything in the API we can send some specefic items
 
@@ -1677,7 +1677,7 @@ app.get('/api/products/:productID', (req, res) => {
    return res.status(404).send('Resource Not Found')
 })
 ```
-Console: ![1634135198115](:/c1c8181e2e4e4652bbac3432ad69bba3)
+Console: ![1634135198115](../_resources/1634135198115)
 
 Note that in code `productID` is the param which we are passing to the server 
 
@@ -1691,7 +1691,7 @@ app.get('/api/products/:productID/reviews/:reviewID', (req, res) => {
    res.send("नमस्ते दुनीया")
 })
 ```
-![1634135564910](:/81f617e6d2224398abc537718f5bc5bb)<br/>
+![1634135564910](../_resources/1634135564910)<br/>
 Also note that the `param` from the previous Route is also printed because that route was also present in this route.
 
 ## Query String Parameter
@@ -1708,7 +1708,7 @@ app.get('/api/query', (req, res) => {
 })
 ```
 > url that I was visiting &rarr; `http://localhost:5000/api/query?name=adarsh&title=singh&age=21`<br/>
-> ![1634137211126](:/f402fb6dfbd443d28db832220d619bd8)<br/>
+> ![1634137211126](../_resources/1634137211126)<br/>
 > note that &rarr; `query?name=adarsh&title=singh&age=21` &larr; after query there is `?` after which the query parameter is written and we can continue to write as many query parameter as we like<br/>
 
 #### Example : Using Query String to filter data
@@ -1736,13 +1736,13 @@ app.get('/api/query', (req, res) => {
 Note that if i provide the query parms donot match then all the products will be returned
 
 > * `http://localhost:5000/api/query?search=a&limit=1`<br/>
-> ![1634139000213](:/08fab2140a3b458a858d2452bfa9c1a8)<br/><br/>
+> ![1634139000213](../_resources/1634139000213)<br/><br/>
 > * `http://localhost:5000/api/query?search=a` <br/>
-> ![1634139038507](:/b891f0a0835c4cae834f006e325a03f8)
+> ![1634139038507](../_resources/1634139038507)
 > * `http://localhost:5000/api/query?`  or  `http://localhost:5000/api/query`
 > All Products are displayed
 > * `http://localhost:5000/api/query?limit=2` <br/>
-> ![1634139172733](:/f401921caa0740f1ac3193040857b5c1) <br/><br/>
+> ![1634139172733](../_resources/1634139172733) <br/><br/>
 
 
 **Errors: `Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client`**
@@ -1791,7 +1791,7 @@ Now this will happen if we visit to endpoint `/`:
 
 |               |                                                                  |
 | ------------- | ---------------------------------------------------------------- |
-| like:  &rarr; | ![1634458483106](:/0c0b96dcbbc74e9894719077282ebe8c) |
+| like:  &rarr; | ![1634458483106](../_resources/1634458483106) |
 
 
 When we are working with a middleware then we have to one of the two things:
@@ -1821,7 +1821,7 @@ we are passing to the next middleware here it is `app.get('/', ...)` which is se
 
 |                                                                  |                                                                  |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![1634459549216](:/1a9dec36979a47b2820773ae706467f0) | ![1634459639517](:/187d5a02a1c74cd0aee1a4d294137112) |
+| ![1634459549216](../_resources/1634459549216) | ![1634459639517](../_resources/1634459639517) |
 
 <br/>
 
@@ -1898,10 +1898,10 @@ The middleware function will then work for any path that is after the `/api`
 
 | S.No. | Route           | console                                                          |
 | ----- | --------------- | ---------------------------------------------------------------- |
-| 1     | `/`             | ![1634461319408](:/80b0e40f2e3646b4b22e481f09a4730d) |
-| 2     | `/about`        | ![1634461328770](:/8d206c37a82940cabcfb06053cdc1e71) |
-| 3     | `/api/products` | ![1634461398408](:/a90667d7a054420cb9dacdd7cfab5670) |
-| 4     | `/api/items`    | ![1634461504051](:/01fd9d16f51142d28e1c0611ae18d3dc) |
+| 1     | `/`             | ![1634461319408](../_resources/1634461319408) |
+| 2     | `/about`        | ![1634461328770](../_resources/1634461328770) |
+| 3     | `/api/products` | ![1634461398408](../_resources/1634461398408) |
+| 4     | `/api/items`    | ![1634461504051](../_resources/1634461504051) |
 
 > Note : in ex 4 the route `/api/items` is wrong and in Browser we get 
 > **Cannot GET /api/asdfg** but still since route present in `app.use()` is `/api`
@@ -1931,7 +1931,7 @@ const logger = require('./logger')
 const mdware = require('./mdware')
 app.use([logger, mdware])
 ```
-![b3ae7c32cc7eff9be89f8292869a066e.png](:/02591645dae14c9fa81b3daedb56bf77)
+![b3ae7c32cc7eff9be89f8292869a066e.png](../_resources/b3ae7c32cc7eff9be89f8292869a066e.png)
 
 Note that the order in which we write the middleware functions in the 
 list inside `app.use([..])` is the oreder of their execution
@@ -1941,7 +1941,7 @@ const logger = require('./logger')
 const authorize = require('./mdware')
 app.use([mdware, logger])
 ```
-![ea870927ffe33c98abcd2760b4db0219.png](:/3f8ea7b36986495198b746393fc4220a)
+![ea870927ffe33c98abcd2760b4db0219.png](../_resources/ea870927ffe33c98abcd2760b4db0219.png)
 
 <br/><br/>
 
@@ -2005,9 +2005,9 @@ app.listen(8430, () => {
 
 | S.No | route              | Browser                                                                                 | Server Console                                                                          |
 | ---- | ------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| 1    | `/`                | ![d245e1f0f425c817963cf04f9b0ebedc.png](:/36f2dc4758f14cc2a09240cf7e2295f3) | ![f95fa148aaaa167ee0fa20ad2553207f.png](:/dd6fd567acdb433b893f990feebd8328) |
-| 2    | `/?user=Adarsh`    | ![d98bc6568c740c9a28ca672a8e9e8989.png](:/2feb401c9ad04969842106363af923c5) | ![05c14488416af1c60ad64c3a087a7cf0.png](:/20a1dc9b024547f8b74c4a17b708ad33) |
-| 3    | `/abt?user=Adarsh` | ![05d472e9554452df97cfeb30d7b5e485.png](:/d25174c32b4a44fd868e8aac6defa605) | ![16295adc01c14736d66eee5ae542e08b.png](:/961a70baf3cd429daad4455a3336a9cb) |
+| 1    | `/`                | ![d245e1f0f425c817963cf04f9b0ebedc.png](../_resources/d245e1f0f425c817963cf04f9b0ebedc.png) | ![f95fa148aaaa167ee0fa20ad2553207f.png](../_resources/f95fa148aaaa167ee0fa20ad2553207f.png) |
+| 2    | `/?user=Adarsh`    | ![d98bc6568c740c9a28ca672a8e9e8989.png](../_resources/d98bc6568c740c9a28ca672a8e9e8989.png) | ![05c14488416af1c60ad64c3a087a7cf0.png](../_resources/05c14488416af1c60ad64c3a087a7cf0.png) |
+| 3    | `/abt?user=Adarsh` | ![05d472e9554452df97cfeb30d7b5e485.png](../_resources/05d472e9554452df97cfeb30d7b5e485.png) | ![16295adc01c14736d66eee5ae542e08b.png](../_resources/16295adc01c14736d66eee5ae542e08b.png) |
 
 Now in any of my route I'll have access to that user because of `mdware`
 
@@ -2058,7 +2058,7 @@ app.use(morgan('tiny'));
 ```
 
 O/P at different routes:
-![86deaa82b8d0d710239b90ef1925f43b.png](:/d6e623a9e7944f7c850c338d772acb5c)
+![86deaa82b8d0d710239b90ef1925f43b.png](../_resources/86deaa82b8d0d710239b90ef1925f43b.png)
 
 
 ***
@@ -2115,9 +2115,9 @@ inside `index.html` look for the form :
 
 ```
 
-![29d7dc782f3dccbfee31836783c515ba.png](:/1dc9899c20904b93a3933659e8246fb7)
+![29d7dc782f3dccbfee31836783c515ba.png](../_resources/29d7dc782f3dccbfee31836783c515ba.png)
 
-![bb77db75c662630f7669476a3c727f16.png](:/7957c3e9568541dea48304aca0630483)
+![bb77db75c662630f7669476a3c727f16.png](../_resources/bb77db75c662630f7669476a3c727f16.png)
 
 Handling POST request in backend
 
@@ -2149,7 +2149,7 @@ app.post('/login', (req, res) => {
 ```
 
 Output : 
-![cd97f7d7ea5a12b4ba95c1492dee3a32.png](:/297bb862c47a4d128e9dc3c2fbcd988b)
+![cd97f7d7ea5a12b4ba95c1492dee3a32.png](../_resources/cd97f7d7ea5a12b4ba95c1492dee3a32.png)
 
 `name` key is the value present in `name` attribute of `<input>` element 
 
@@ -2201,14 +2201,14 @@ app.listen(8430, () => {
 ```
 
 
-![87d4da5655a50f410e97ff07534ee970.png](:/2abc9843ef074c9bab2ae6bcb7efd5d2)
+![87d4da5655a50f410e97ff07534ee970.png](../_resources/87d4da5655a50f410e97ff07534ee970.png)
 
 </details>
 
 
-![03f9f099452d9a977d012ecf3e98efee.png](:/462ff16bf2a448c9b17270ff46c69dbe)
+![03f9f099452d9a977d012ecf3e98efee.png](../_resources/03f9f099452d9a977d012ecf3e98efee.png)
 
-![93946b0ad95ac1831ac32980598121a8.png](:/d1465a5eccb64657b52cf6cff1f1cb4c)
+![93946b0ad95ac1831ac32980598121a8.png](../_resources/93946b0ad95ac1831ac32980598121a8.png)
 
 <br/>
 
@@ -2306,11 +2306,11 @@ app.listen(8430, () => {
 
 </details>
 
-![29bf079c0c4a2e86cdfee604c245d026.png](:/baf29918357144848e42ddbe110f130b)
+![29bf079c0c4a2e86cdfee604c245d026.png](../_resources/29bf079c0c4a2e86cdfee604c245d026.png)
 
-1 ![32da32921c614a5c6f2727352ab51c2a.png](:/3c3d63cdbc0d40458bc020da5e8ebc8a)
+1 ![32da32921c614a5c6f2727352ab51c2a.png](../_resources/32da32921c614a5c6f2727352ab51c2a.png)
 
-2![421a0be3a52f19af5d6d24b88265e505.png](:/a6b51b0423a046879a77315025684a1a)
+2![421a0be3a52f19af5d6d24b88265e505.png](../_resources/421a0be3a52f19af5d6d24b88265e505.png)
 
 To handle incoming JSON data we need to use `express.json()` middleware
 
@@ -2351,7 +2351,7 @@ app.listen(8430, () => {
 </details>
 
 `console` : 
-![43a90ce5593fb0094e8eb60de41c228f.png](:/5bd84f84b197417ea9c52379a4326db6)
+![43a90ce5593fb0094e8eb60de41c228f.png](../_resources/43a90ce5593fb0094e8eb60de41c228f.png)
 
 
 <br/>
@@ -2368,7 +2368,7 @@ Here we will be sending the id in the route param & in the body we will send the
 
 |                                                                                         |                                                                                         |                                                                                         |
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| ![7bc904c5b9eec4bc022450bfee55a971.png](:/b4a4f00e4acf406ebdf7fea80fba66e9) | ![a31f6776e10cc8b13902f71f1c769d0c.png](:/75461036b1ab44f9bd556ccae142385f) | ![99b821669cc7e89b3a19742b057b7add.png](:/6d3a418c59724ef589a8a937cb238f03) |
+| ![7bc904c5b9eec4bc022450bfee55a971.png](../_resources/7bc904c5b9eec4bc022450bfee55a971.png) | ![a31f6776e10cc8b13902f71f1c769d0c.png](../_resources/a31f6776e10cc8b13902f71f1c769d0c.png) | ![99b821669cc7e89b3a19742b057b7add.png](../_resources/99b821669cc7e89b3a19742b057b7add.png) |
 
 code for put:
 ```javascript
