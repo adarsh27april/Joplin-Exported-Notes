@@ -118,8 +118,7 @@ let x=5;
 console.log(x);
 
 **Output:**
-
-Error
+ReferenceError : Cannot access 'x' before initializaiton
 ```
 
 [Difference between var and let in JavaScript - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/#:~:text=var%20and%20let%20are%20both,program%20as%20compared%20to%20let.)
